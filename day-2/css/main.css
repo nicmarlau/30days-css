@@ -1,0 +1,158 @@
+body {
+	background: url("../img/background.jpg") center no-repeat;
+	background-size: cover;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: 50px auto;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column;
+}
+
+.payment-method-header {
+	text-align: center;
+	padding-bottom: 20px;
+	color: #333333;
+}
+
+.payment-method-header p {
+	margin: 0;
+	padding-top: 10px;
+}
+
+i {
+	color: lightgray;
+	padding: 5px;
+	font-size: 10px;
+	margin: 0;
+}
+
+.payment-method-header span {
+	color: #808080;
+	padding: 2.5px;
+	font-size: 10px;
+	margin: 0;
+}
+
+.section-card-type {
+	border-top: 1px solid #dedede;
+	height: 65px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+div .left {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	width: 80%;
+}
+
+div .right {
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+h2 {
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	top: 35%;
+}
+
+.card-icon {
+	width: 40px;
+	height: auto;
+	padding-right: 30px;
+	padding-left: 20px;
+}
+
+.check-icon {
+	display: flex;
+	width: 20px;
+	height: auto;
+	padding-right: 20px;
+	align-self: flex-end;
+}
+
+.section-card-type:hover {
+	background: #efefef;
+}
+
+.text-selected {
+	color: #333333;
+}
+
+.next-step-footer {
+	text-align: center;
+	background: #598bdd;
+	color: #ffffff;
+	font-weight: 400;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	position: relative;
+}
+
+.next-step-footer:active {
+	top: 1px;
+}
+
+.next-step-footer img {
+	padding-left: 5px;
+}
+
+p {
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 15px;
+	top: 20%;
+}
+
+@media only screen and (min-width: 600px) {
+	.container {
+		width: 50%;
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+	.container {
+		width: 45%;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) {
+	.container {
+		width: 40%;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 30%;
+	}
+
+}

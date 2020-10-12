@@ -1,0 +1,100 @@
+body {
+	background: #8aa5d0;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	margin: 50px auto;
+}
+
+.container {
+	width: 80%;
+	max-width: 300px;
+	height: auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+.device-option {
+	width: 90%;
+	padding: 20px 0px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	transition: color 2s;
+	border-radius: 5px;
+}
+
+div .device-option:hover {
+	background-color: #f7f7f7;
+}
+
+img {
+	width: 60px;
+	height: auto;
+	padding: 5px 10px;
+}
+
+span {
+	font-size: 3em;
+	color: #5e73d1;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: #5e73d1;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 30px;
+	letter-spacing: 3px;
+	margin: 0;
+}
+
+h2 {
+	color: #5e73d1;
+	font-weight: normal;
+	font-size: 0.875em;
+}
+
+.p-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #a6a6a6;
+	line-height: 1.25em;
+	padding-top: 10px;
+	max-width: 80%;
+}
+
+@media only screen and (min-width:768px) {
+	.container {
+		max-width: 900px;
+	}
+
+	.content-wrapper {
+		align-items: flex-start;
+		flex-flow: row wrap;
+	}
+
+	.device-option {
+		width: 30%;
+		padding: 20px 10px;
+	}
+}
