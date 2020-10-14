@@ -1,0 +1,147 @@
+/*--------Global Styles---------*/
+body {
+	background: #91acc1;
+	background: url('img/background.jpg') center no-repeat;
+	background-size: cover;
+	font-size: 16px;
+	margin: 0;
+	width: 100%;
+}
+
+h1 {
+	color: #3b8acf;
+	font-family: Prompt;
+	font-size: 3em;
+	font-weight: 900;
+	margin: 0;
+	padding:0;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #b7adaa;
+	font-family: Roboto;
+	font-size: 0.875em;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #b7adaa;
+	font-family: Roboto;
+	font-size: 0.75em;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background: #fff;
+	box-sizing: border-box;
+	padding: 64px 42px 46px 42px;
+	margin: 100px auto;
+	width: 90%;
+}
+
+/*--------HEADER---------*/
+
+header .content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+	padding-bottom: 63px;
+}
+
+.dash {
+	box-sizing: border-box;
+	color: #d3e6f4;
+	font-weight: 900;
+	font-size: 2em;
+	padding-bottom: 5px;
+}
+
+.arrival-airport h3 {
+	text-align: right;
+}
+
+/*--------NUMBERS---------*/
+
+.numbers .content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	padding-bottom: 26px;
+}
+
+.flight-number, .gate-number, .seat-number {
+	width: 33%;
+}
+
+/*--------FOOTER---------*/
+
+.footer .content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-flow: row wrap;
+}
+
+.passenger-class-departure {
+	display: flex;
+	justify-content: center;
+	align-items: space-around;
+	flex-flow: column wrap;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+
+.passenger-name, .class-name {
+	padding-bottom: 12px;
+}
+
+div .qr-code {
+	background: url('img/qr.svg') center no-repeat;
+	background-size: cover;
+	height: 125px;
+	width: 125px;
+}
+
+img .qr {
+	width: 20px;
+}
+
+/*--------Media Query: 400px and up---------*/
+
+@media screen and (min-width: 400px) {
+	.container {
+		background: #fff;
+		box-sizing: border-box;
+		padding: 64px 42px 46px 42px;
+		margin: 100px auto;
+		width: 400px;
+	}
+
+	.passenger-name, .class-name {
+		padding-bottom: 24px;
+	}
+
+	div .qr-code {
+	height: 150px;
+	width: 150px;
+}
+}
