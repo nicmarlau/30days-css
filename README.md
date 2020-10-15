@@ -9,4 +9,4 @@
 <br>
 <p>Quick side note - I'm also practicing my responsive coding skills with these challenges, so they'll have slightly different versions from mobile to tablet to desktop.</p>
 <br>
-<p><strong>Day 5 update:</strong> Just when I thought I was doing great at code, I get humbled a bit :) I had a hard time with this one; it felt like there were so many divs within divs, making it hard to track the padding and margin sizes on each element. I didn't get the exact design they showed, but close!</p>
+<p><strong>Day 6 update:</strong> Just when I thought I was doing great at code, I get humbled a bit :) I had a hard time with this one; it felt like there were so many divs within divs, making it hard to track the padding and margin sizes on each element. I didn't get the exact design they showed, but close!</p>
