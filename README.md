@@ -8,3 +8,5 @@
 <p><strong>Day 5 update:</strong> This challenge was pretty straightforward; it only took me about an hour to do, which is impressive for me at this point in my dev learning. I had some issue with the QR code, deciding to make it a background or using the image tag. I decided to go with the background, since I see this more commonly in other devs' work.</p>
 <br>
 <p>Quick side note - I'm also practicing my responsive coding skills with these challenges, so they'll have slightly different versions from mobile to tablet to desktop.</p>
+<br>
+<p><strong>Day 5 update:</strong> Just when I thought I was doing great at code, I get humbled a bit :) I had a hard time with this one; it felt like there were so many divs within divs, making it hard to track the padding and margin sizes on each element. I didn't get the exact design they showed, but close!</p>
