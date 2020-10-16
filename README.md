@@ -10,3 +10,6 @@
 <p>Quick side note - I'm also practicing my responsive coding skills with these challenges, so they'll have slightly different versions from mobile to tablet to desktop.</p>
 <br>
 <p><strong>Day 6 update:</strong> Just when I thought I was doing great at code, I get humbled a bit :) I had a hard time with this one; it felt like there were so many divs within divs, making it hard to track the padding and margin sizes on each element. I didn't get the exact design they showed, but close!</p>
+<p><strong>Day 7 update:</strong> Aaaand I'm feeling back up with this challenge; it was quite simple. Sometimes when I compare my code to the source code, it seems like the developers are making it more difficult than it should be. For example, the small orange line under the header--I used the hr html tag and then formatted it with CSS, whereas they chose to use the ::before state on the div.</p>
+<br>
+<p>Another quick update - I realized that Frontloops.io is giving me different stages, aka loops. With Loop 1, everything has fixed sizes, so I decided to revert back to that styling for now. I'm hoping when Loop 2 starts with Day 11, I'll be focused on responsiveness.</p>
