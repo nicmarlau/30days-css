@@ -13,3 +13,5 @@
 <p><strong>Day 7 update:</strong> Aaaand I'm feeling back up with this challenge; it was quite simple. Sometimes when I compare my code to the source code, it seems like the developers are making it more difficult than it should be. For example, the small orange line under the header--I used the hr html tag and then formatted it with CSS, whereas they chose to use the ::before state on the div.</p>
 <br>
 <p>Another quick update - I realized that Frontloops.io is giving me different stages, aka loops. With Loop 1, everything has fixed sizes, so I decided to revert back to that styling for now. I'm hoping when Loop 2 starts with Day 11, I'll be focused on responsiveness.</p>
+<br>
+<p><strong>Day 8 update:</strong> I'm starting to get a better hang of the box model and how to translate that into HTML and corresponding CSS. One thing I need to learn more about are SVGs--the developers of this challenge like to use them, and they regularly give me minor headaches. All in all, I'm feeling a lot more confident with my CSS skills so far!</p>
