@@ -1,0 +1,157 @@
+body {
+	background-color: #f8ebe9;
+	font-family: Roboto, sans-serif;
+}
+
+.container {
+	width: 1000px;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 100px auto;
+	box-shadow: 0 50px 60px -25px rgba(204, 144, 127, 0.9);
+}
+
+.left-side {
+	width: 360px;
+	background: url('img/background.jpg') center no-repeat;
+	background-size: cover;
+	padding-top: 35px;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+li {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ababab;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li svg {
+	width: 10px;
+	fill: #ababab;
+	padding-right: 5px;
+}
+
+li:hover {
+	color: #000;
+}
+
+li svg:hover {
+	fill: #000;
+}
+
+/*------RIGHT SIDE------*/
+
+.right-side {
+	width: 640px;
+	background-color: #fff;
+	padding-top: 35px;
+	padding-bottom: 75px;
+	box-sizing: border-box;
+}
+
+.right-side nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.right-side ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.right-side li {
+	padding-right: 30px;
+}
+
+.header {
+	padding: 100px 100px 0px 100px;
+}
+
+h1 {
+	font-family: Playfair Display, serif;
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: Playfair Display, serif;
+}
+
+.header p {
+	font-family: Playfair Display, serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+p strong {
+	font-weight: bolder;
+}
+
+.content {
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-flow: row wrap;
+}
+
+.content-wrapper {
+	width: 50%;
+}
+
+.preview-video {
+	width: 175px;
+	height: 110px;
+	background: url('img/preview.jpg') center no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.preview-video img {
+	border-radius: 50%;
+	border: 8px solid #fff;
+	background: #fff;
+	opacity: 0.8;
+}
+
+a  {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+
+a img {
+	width: 10px;
+	fill: #ababab;
+	padding-right: 5px;
+}
+
+.caption {
+	width: 50%;
+}
+
+p {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	margin: 0;
+}
