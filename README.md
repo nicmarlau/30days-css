@@ -15,3 +15,5 @@
 <p>Another quick update - I realized that Frontloops.io is giving me different stages, aka loops. With Loop 1, everything has fixed sizes, so I decided to revert back to that styling for now. I'm hoping when Loop 2 starts with Day 11, I'll be focused on responsiveness.</p>
 <br>
 <p><strong>Day 8 update:</strong> I'm starting to get a better hang of the box model and how to translate that into HTML and corresponding CSS. One thing I need to learn more about are SVGs--the developers of this challenge like to use them, and they regularly give me minor headaches. All in all, I'm feeling a lot more confident with my CSS skills so far!</p>
+<br>
+<p><strong>Day 9 update:</strong> I'm a day late on this one; it took me a little longer than expected with the varying divs. I had some trouble selecting certain text, which I'm going to look into so I understand why I wasn't able to change some of the headers and paragraphs. Overall I liked this day's challenge--even if it was especially challenging--because it made me think harder than normal on the layout.</p>
